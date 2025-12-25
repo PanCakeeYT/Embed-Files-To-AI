@@ -26,12 +26,12 @@ Then, it sends the text and your question to an AI model to get an answer.
     # For macOS/Linux
     export XIAOMI_KEY="your_api_key_here"
     ```
-    *Note: You can also just paste your key directly into the `testingsmth.py` file where it says `os.environ.get("XIAOMI_KEY")`, but this is less secure.*
+    *Note: You can also just paste your key directly into the `main.py` file where it says `os.environ.get("XIAOMI_KEY")`, but this is less secure.*
 
 ## How to Use
 
 1.  Place your `.txt` or `.pdf` file in the same folder as the script.
-2.  Open `testingsmth.py` in an editor.
+2.  Open `main.py` in an editor.
 3.  **Find the "Usage" section** at the bottom of the file.
 4.  To ask about a `.txt` file, change `random_story.txt` to your filename and edit the `question`.
     ```python
@@ -45,6 +45,6 @@ Then, it sends the text and your question to an AI model to get an answer.
     ```
 6.  Save the file and run it from your terminal:
     ```bash
-    python testingsmth.py
+    python main.py
     ```
 The answer will be printed in the terminal.
